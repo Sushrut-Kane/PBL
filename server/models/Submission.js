@@ -16,7 +16,7 @@ const submissionSchema = new mongoose.Schema(
 
     studentAnswersText: {
       type: String,
-      required: true
+      default: ""
     },
 
     status: {

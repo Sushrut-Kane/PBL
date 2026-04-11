@@ -13,7 +13,7 @@ const examSchema = new mongoose.Schema({
   },
   answerKeyText: {
     type: String,
-    required: true
+    default: ""
   },
   section: {
     type: String,
